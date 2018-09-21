@@ -4,20 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ui.BookmarkActivity"
+    android:orientation="vertical">
 
     <Button
+        android:id="@+id/btnLoadBookmark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:onClick="showBai1"
-        android:text="Bài 1" />
+        android:text="Load Bookmark"
+        android:textAllCaps="false" />
 
-    <Button
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lvListBookmark"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="showBai2"
-        android:text="Bài 2" />
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
