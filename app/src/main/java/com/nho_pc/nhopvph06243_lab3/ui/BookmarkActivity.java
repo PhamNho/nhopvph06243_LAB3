@@ -1,25 +1,17 @@
-package com.nho_pc.contentproviderdemo.ui;
+package com.nho_pc.nhopvph06243_lab3.ui;
 
-import android.app.ListActivity;
-import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
-import android.provider.Browser;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ListView;
-import android.widget.Toast;
 
-import com.nho_pc.contentproviderdemo.R;
-import com.nho_pc.contentproviderdemo.adapter.BookmarkAdapter;
-import com.nho_pc.contentproviderdemo.adapter.ContactAdapter;
-import com.nho_pc.contentproviderdemo.model.MyBookmark;
-import com.nho_pc.contentproviderdemo.model.MyContact;
+import com.nho_pc.nhopvph06243_lab3.R;
+import com.nho_pc.nhopvph06243_lab3.adapter.BookmarkAdapter;
+import com.nho_pc.nhopvph06243_lab3.model.MyBookmark;
 
 import java.util.ArrayList;
 import java.util.List;

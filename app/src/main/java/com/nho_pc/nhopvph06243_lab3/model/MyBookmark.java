@@ -1,4 +1,4 @@
-package com.nho_pc.contentproviderdemo.model;
+package com.nho_pc.nhopvph06243_lab3.model;
 
 public class MyBookmark {
     public String title;

@@ -1,4 +1,4 @@
-package com.nho_pc.contentproviderdemo.ui;
+package com.nho_pc.nhopvph06243_lab3.ui;
 
 import android.content.CursorLoader;
 import android.database.Cursor;
@@ -11,9 +11,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 
-import com.nho_pc.contentproviderdemo.R;
-import com.nho_pc.contentproviderdemo.adapter.ContactAdapter;
-import com.nho_pc.contentproviderdemo.model.MyContact;
+import com.nho_pc.nhopvph06243_lab3.R;
+import com.nho_pc.nhopvph06243_lab3.adapter.ContactAdapter;
+import com.nho_pc.nhopvph06243_lab3.model.MyContact;
 
 import java.util.ArrayList;
 import java.util.List;

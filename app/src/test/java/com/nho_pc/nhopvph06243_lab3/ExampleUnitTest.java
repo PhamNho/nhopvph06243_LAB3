@@ -1,4 +1,4 @@
-package com.nho_pc.contentproviderdemo;
+package com.nho_pc.nhopvph06243_lab3;
 
 import org.junit.Test;
 

@@ -1,12 +1,12 @@
-package com.nho_pc.contentproviderdemo;
+package com.nho_pc.nhopvph06243_lab3;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.nho_pc.contentproviderdemo.ui.BookmarkActivity;
-import com.nho_pc.contentproviderdemo.ui.ContactActivity;
+import com.nho_pc.nhopvph06243_lab3.ui.BookmarkActivity;
+import com.nho_pc.nhopvph06243_lab3.ui.ContactActivity;
 
 public class MainActivity extends AppCompatActivity {
 

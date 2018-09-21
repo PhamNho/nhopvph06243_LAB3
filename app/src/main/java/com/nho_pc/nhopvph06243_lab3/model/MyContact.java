@@ -1,4 +1,4 @@
-package com.nho_pc.contentproviderdemo.model;
+package com.nho_pc.nhopvph06243_lab3.model;
 
 public class MyContact {
     public String name;

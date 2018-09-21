@@ -1,4 +1,4 @@
-package com.nho_pc.contentproviderdemo.adapter;
+package com.nho_pc.nhopvph06243_lab3.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -7,9 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.nho_pc.contentproviderdemo.R;
-import com.nho_pc.contentproviderdemo.holder.BookmarkHolder;
-import com.nho_pc.contentproviderdemo.model.MyBookmark;
+import com.nho_pc.nhopvph06243_lab3.R;
+import com.nho_pc.nhopvph06243_lab3.holder.BookmarkHolder;
+import com.nho_pc.nhopvph06243_lab3.model.MyBookmark;
 
 import java.util.List;
 
