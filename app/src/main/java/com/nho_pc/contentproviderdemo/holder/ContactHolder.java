@@ -13,6 +13,6 @@ public class ContactHolder extends RecyclerView.ViewHolder {
     public ContactHolder(View itemView) {
         super(itemView);
         tvName = itemView.findViewById(R.id.tvName);
-        tvPhone = itemView.findViewById(R.id.tvPhone);
+        tvPhone = itemView.findViewById(R.id.tvID);
     }
 }

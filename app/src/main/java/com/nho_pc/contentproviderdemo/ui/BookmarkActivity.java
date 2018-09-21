@@ -37,7 +37,6 @@ public class BookmarkActivity extends AppCompatActivity {
         setTitle("Show all bookmark");
         setContentView(R.layout.activity_bookmark);
         initViews();
-//        initData();
         initActions();
     }
 
@@ -49,7 +48,7 @@ public class BookmarkActivity extends AppCompatActivity {
                 String column_title = "title";
                 String column_url = "url";
                 String[] projection = {column_title, column_url,};
-                Cursor cursor = getContentResolver().query(Uri.parse("content://browser/bookmarks"), projection, null, null, null);
+                Cursor cursor = getContentResolver().query(Uri.parse("content://browser/bookmarks/"), projection, null, null, null);
                 cursor.moveToFirst();
                 while (cursor.isAfterLast() == false) {
                     String title = cursor.getString(cursor.getColumnIndex(column_title));

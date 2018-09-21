@@ -23,4 +23,8 @@ public class MainActivity extends AppCompatActivity {
     public void showBai2(View view) {
         startActivity(new Intent(MainActivity.this, BookmarkActivity.class));
     }
+
+    public void backHome(View view) {
+        finish();
+    }
 }

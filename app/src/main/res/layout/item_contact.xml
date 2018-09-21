@@ -8,21 +8,36 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/ic_user" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
+        android:gravity="center_vertical"
         android:orientation="vertical"
         android:padding="8dp">
 
-        <TextView
-            android:id="@+id/tvPhone"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:text="0962387053" />
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text="No_" />
+            <TextView
+                android:id="@+id/tvID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="45dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary" />
 
         <TextView
             android:id="@+id/tvName"
@@ -30,7 +45,5 @@
             android:layout_height="wrap_content"
             android:text="NhoPham"
             android:textSize="20dp" />
-
-
     </LinearLayout>
 </LinearLayout>
