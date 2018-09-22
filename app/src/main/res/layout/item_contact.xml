@@ -30,20 +30,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1" />
+            <View
+                android:layout_marginLeft="20dp"
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="@color/colorPrimary" />
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NhoPham"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"/>
         </LinearLayout>
 
-        <View
-            android:layout_width="45dp"
-            android:layout_height="1dp"
-            android:layout_marginBottom="4dp"
-            android:layout_marginTop="8dp"
-            android:background="@color/colorPrimary" />
-
         <TextView
-            android:id="@+id/tvName"
+            android:id="@+id/tvPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="NhoPham"
-            android:textSize="20dp" />
+            android:text="0962387053" />
     </LinearLayout>
 </LinearLayout>
